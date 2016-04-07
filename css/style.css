@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 98%;
+  max-width: 600px;
+  margin: 2% auto;
+  background-color: #FFFFFF;
+  padding: 16px;
+}
+header {
+  width: 98%;
+  margin: 1%;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+.half {
+  width: 98%;
+  margin: 2% 1%;
+}
+
+.brand-logo {
+  background-color: rgb(136,136,136);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 2% auto;
+}
